@@ -8,7 +8,9 @@
 #### Mapping Samples
 
 Sample map which describes both geolocation, ecotype (alpine-foothill) and polidy status for all collected samples are created by using custom R script `Create_Map.R`
+
 Script takes `Alp_Samples_for_map.xlsx` as input which is a derivative file created from more general `Alpine samples.xlsx` by copying columns Ecotype, Ploidy, Latitude, Longitude to another `.xslx` .
+
 To specify input file path and since script does not save any output file it should run on Rstudio enviornment for best results.
 
 #### Linkage Disequilibrium Pruning
@@ -32,9 +34,12 @@ gcc -o prune_ld ~/pruning/prune_ld.c -lm
 ~/pruning/prune_ld -vcf $VCF -mis 0.6 -maf 0.05 -r2 100 50 0.1 > ~/pruning/alp_arenosa_pruned.vcf
 ```
 The script performs LD pruning on VCF file and takes `.vcf` files as an input.
+
 Input vcf file can be changed by changing file path of VCF variable 
+
 The script was run on HPC enviornment. Running script on any other enviornment requires installation of gcc version 13.2.0. 
-Correct usage of flags (`-vcf`, `-mis`, `-maf`, `-r2` ...) and their effects on output file commented in the script.
+
+Correct usage of flags (`-vcf`, `-mis`, `-maf`, `-r2` ...) and their effects on output file commented in the script file.
 
 #### Principle Component Analysis (PCA)
 
