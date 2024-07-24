@@ -43,7 +43,7 @@ Correct usage of flags (`-vcf`, `-mis`, `-maf`, `-r2` ...) and their effects on 
 
 ### Principle Component Analysis (PCA)
 
-PCA analysis were performed on LD pruned vcf file `alp_arenosa_pruned.vcf` with another script taken from Hämälä (2024) [https://github.com/thamala/polySV/blob/main/est_cov_pca.r].
+PCA analysis were performed on LD pruned vcf file `alp_arenosa_pruned.vcf` with another script taken from Hämälä (2024) https://github.com/thamala/polySV/blob/main/est_cov_pca.r.
 
 Since script was modified it was renamed `modified_est_cov_pca.r`.
 
@@ -61,11 +61,11 @@ The script was run on R studio enviornment.
 
 Before tree construction since SplitsTree cannot recognize `.vcf` files they need to be converted to `.phy` format.
 
-To make this conversion `vcf2phylip.py` script is used. The script is created by Ortiz (2019) [https://github.com/edgardomortiz/vcf2phylip].
+To make this conversion `vcf2phylip.py` script is used. The script is created by Ortiz (2019) https://github.com/edgardomortiz/vcf2phylip].
 
 ```Python
 python3 vcf2phylip.py -i alp_arenosa_pruned.vcf
 ```
 This script outputs a phylip file named `alp_arenosa_pruned_c.min4.phy` which can be loaded into SplitsTree.
 
-SplitsTree app can be directly downloaded for MacOS, Windows or Linux from [https://software-ab.cs.uni-tuebingen.de/download/splitstree6/welcome.html]. 
+SplitsTree app can be directly downloaded for MacOS, Windows or Linux from https://software-ab.cs.uni-tuebingen.de/download/splitstree6/welcome.html. 
