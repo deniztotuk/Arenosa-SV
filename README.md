@@ -13,7 +13,7 @@ To specify input file path and since script does not save any output file it sho
 
 #### Linkage Disequilibrium Pruning
 
-Files are LD pruned via Hämälä's (2024) PCA script which is directly taken from [https://github.com/thamala/polySV/blob/main/prune_ld.c]
+Files are LD pruned via Hämälä's (2024) PCA script which is directly taken from https://github.com/thamala/polySV/blob/main/prune_ld.c
 
 ```Bash
 # Load the required modules for C compilation
