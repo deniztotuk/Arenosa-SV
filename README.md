@@ -108,7 +108,8 @@ vcftools --vcf $VCF \
 ```
 The file takes SV data as input `alpine_all_SV50_norm_rmdup_AN_AC.vcf`.
 
-Two population files are also required to run the scrip. These population files are basically contains names of all samples are within population in column wise manner and they are also provided in repository for reproducibility purposes. They are named after local geographic groups that samples belong.
+Two population files are also required to run the scrip. These population files are basically contains names of all samples are within population in column wise manner and they are also provided in repository (population_files) for reproducibility purposes. They are named after local geographic groups that samples belong and their respective ecotype (alpine, foothill, both)
+
 
 
 
