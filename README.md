@@ -57,7 +57,7 @@ Small modifications were made for better readibility of graph. (reducing `geom_p
 
 The script was run on R studio enviornment.
 
-#### Phylogenetic Tree Construction via SplitsTree
+### Phylogenetic Tree Construction via SplitsTree
 
 Before tree construction since SplitsTree cannot recognize `.vcf` files they need to be converted to `.phy` format.
 
