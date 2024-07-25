@@ -85,4 +85,34 @@ After tree is constructed to see confidence levels bootstrap algorithm was run b
 Fst scans were firstly performed samples within individual geograpical groups between alpine and foothill populations with using SV data (**not** pruned or unpruned 
 SNV data).
 
+Fst calculations were made in HPC enviornment. If you want make these calculations localy installing `vcftools version 0.1.16` is required.
+```bash
+#locating VCF file
+VCF=~/alpine_all_SV50_norm_rmdup_AN_AC.vcf.gz
+
+#loading module
+module load vcftools-uoneasy/0.1.16-GCC-12.3.0
+
+#calculating Fst per site
+# Load the vcftools module
+module load vcftools-uoneasy/0.1.16-GCC-12.3.0
+
+# Set the VCF file path
+VCF=~/alpine_all_SV50_norm_rmdup_AN_AC.vcf
+
+# Run vcftools to calculate Fst
+vcftools --vcf $VCF \
+--weir-fst-pop ~/FST/population_files/FG_alpine.txt \
+--weir-fst-pop ~/FST/population_files/FG_foothill.txt \
+--out ~/FST/Fst_results/FG_Fst_Results
+```
+The file takes SV data as input `alpine_all_SV50_norm_rmdup_AN_AC.vcf`.
+
+Two population files are also required to run the scrip. These population files are basically contains names of all samples are within population in column wise manner and they are also provided in repository for reproducibility purposes. They are named after local geographic groups that samples belong.
+
+
+
+
+
+
  
