@@ -77,4 +77,6 @@ After file is loaded to SplitsTree this initiate automatic creation of SplitNetw
 To construct a phylogenetic tree select `Tree` tab and choose appropriate tree building algorithm for your study. For this study we have choosen `NJ` method.
 
 After tree is constructed to see confidence levels bootstrap algorithm was can be run by `Analysis > Bootstrap Tree`.
+
+**Note:** While creating tree graph used in thesis random samples from each population were used insted of entire dataset for beter readibilty. 
  
