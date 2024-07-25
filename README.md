@@ -45,9 +45,9 @@ Correct usage of flags (`-vcf`, `-mis`, `-maf`, `-r2` ...) and their effects on 
 
 PCA analysis were performed on LD pruned vcf file `alp_arenosa_pruned.vcf` with another script taken from Hämälä (2024) https://github.com/thamala/polySV/blob/main/est_cov_pca.r.
 
-Since script was modified it was renamed `modified_est_cov_pca.r`.
-
 This script was modified for our research purposes and takes two input files `alp_arenosa_pruned.vcf` and `alpine_foothill_inds.csv`.
+
+Since script was modified it was renamed `modified_est_cov_pca.r`.
 
 The original script only does different coloring based on ploidy.
 
