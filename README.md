@@ -85,16 +85,12 @@ After tree is constructed to see confidence levels bootstrap algorithm was run b
 Fst scans were firstly performed samples within individual geograpical groups between alpine and foothill populations with using SV data (**not** pruned or unpruned 
 SNV data).
 
-Fst calculations were made in HPC enviornment. If you want make these calculations localy installing `vcftools version 0.1.16` is required.
+Fst calculations were made in HPC enviornment. If you want make these calculations localy installing and activating `vcftools version 0.1.16` is required.
 ```bash
 #locating VCF file
 VCF=~/alpine_all_SV50_norm_rmdup_AN_AC.vcf.gz
 
-#loading module
-module load vcftools-uoneasy/0.1.16-GCC-12.3.0
-
-#calculating Fst per site
-# Load the vcftools module
+#loading module vcftools
 module load vcftools-uoneasy/0.1.16-GCC-12.3.0
 
 # Set the VCF file path
@@ -108,7 +104,17 @@ vcftools --vcf $VCF \
 ```
 The file takes SV data as input `alpine_all_SV50_norm_rmdup_AN_AC.vcf`.
 
-Two population files are also required to run the scrip. These population files are basically contains names of all samples are within population in column wise manner and they are also provided in repository (population_files) for reproducibility purposes. They are named after local geographic groups that samples belong and their respective ecotype (alpine, foothill, both)
+Two population files are also required to run the script. These population files are basically contains names of all samples are within population in column wise manner and they are also provided in repository (population_files) for reproducibility purposes. They are named after local geographic groups that samples belong and their respective ecotype (alpine, foothill, both)
+
+Furthermore for calculating mean Fst for populations this command can be used as well. Direct output files does not contain any mean Fst value rather it only contains per site Fst results. Howerver after run is completed vcftools shows these values direcctly in the command line terminal. These values are saved in `Fst_between_geo_group.tsv` for downstream analysis.
+```bash
+After filtering, kept 57 out of 203 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.052424
+Weir and Cockerham weighted Fst estimate: 0.0812
+After filtering, kept 137322 out of a possible 137322 Sites
+Run Time = 8.00 seconds
+```
 
 
 
