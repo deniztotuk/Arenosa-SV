@@ -80,7 +80,7 @@ After tree is constructed to see confidence levels bootstrap algorithm was run b
 
 **Note:** While creating tree graph used in thesis random samples from each population were used insted of entire dataset for beter readibilty. This reduced number of subranches in individual level and simplified tree without changing overall story.
 
-### Fst Calculations
+### Fst Analysis
 
 Fst scans were firstly performed samples within individual geograpical groups between alpine and foothill populations with using SV data (**not** pruned or unpruned 
 SNV data).
@@ -122,6 +122,21 @@ Manhattan plots for per site Fst values were plotted via custom `manhattan_plots
 This script takes `.weir.fst` files as input and plots them. Top 1% of Fst values has red coloring and each chromosome is highlighted by different colors.
 
 This script saves `fst_plot.png` file in home directory as an output.
+
+### Genome Scans
+
+To isolate top 1% of outliers custom `Outliers_99.R` script was used.
+
+This script takes `.weir.fst` files as inputs. Then saves top 1st percentile of data into a `.tsv` file (Based on Fst scores).
+
+
+
+
+
+
+
+
+
 
 
 
