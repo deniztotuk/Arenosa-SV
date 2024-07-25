@@ -79,4 +79,10 @@ To construct a phylogenetic tree select `Tree` tab and choose appropriate tree b
 After tree is constructed to see confidence levels bootstrap algorithm was run by `Analysis > Bootstrap Tree`.
 
 **Note:** While creating tree graph used in thesis random samples from each population were used insted of entire dataset for beter readibilty. This reduced number of subranches in individual level and simplified tree without changing overall story.
+
+### Fst Calculations
+
+Fst scans were firstly performed samples within individual geograpical groups between alpine and foothill populations with using SV data (**not** pruned or unpruned 
+SNV data).
+
  
