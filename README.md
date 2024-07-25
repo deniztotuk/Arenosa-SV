@@ -70,9 +70,9 @@ This script outputs a phylip file named `alp_arenosa_pruned_c.min4.phy` which ca
 
 SplitsTree app can be directly downloaded for MacOS, Windows or Linux from https://software-ab.cs.uni-tuebingen.de/download/splitstree6/welcome.html. 
 
-When app is installed open the SplitsTree app. Then open the file by selecting `File > Open` then in the opened window find and select `alp_arenosa_pruned_c.min4.phy` then click open.
+When app is installed open the SplitsTree app. Then open the file by selecting `File > Open` . In the opened window find and select `alp_arenosa_pruned_c.min4.phy`, then click open.
 
-After file is loaded to SplitsTree this initiate automatic creation of SplitNetwork which already shows phylogenetic relations between populations.
+After file is loaded to SplitsTree this initiates automatic creation of SplitNetwork. This already shows phylogenetic relations between populations.
 
 To construct a phylogenetic tree select `Tree` tab and choose appropriate tree building algorithm for your study. For this study we have choosen `NJ` method.
 
