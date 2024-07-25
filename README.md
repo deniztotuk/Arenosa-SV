@@ -108,7 +108,7 @@ Two population files are also required to run the script. These population files
 
 The script output file is a `.weir.fst` which contains per site Fst values.
 
-Furthermore for calculating mean Fst for populations this command can be used as well. Direct output file does not contain any mean Fst value rather it only contains per site Fst results. Howerver after run is completed vcftools shows these values direcctly in the command line terminal. These values are saved in `Fst_between_geo_group.tsv` for downstream analysis.
+Furthermore for calculating mean Fst for populations this command can be used as well. Direct output file does not contain any mean Fst value rather it only contains per site Fst results. Howerver after run is completed vcftools shows these values direcctly in the terminal. These values are saved in `Fst_between_geo_group.tsv` for downstream analysis.
 ```bash
 After filtering, kept 57 out of 203 Individuals
 Outputting Weir and Cockerham Fst estimates.
