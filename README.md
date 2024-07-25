@@ -98,13 +98,15 @@ VCF=~/alpine_all_SV50_norm_rmdup_AN_AC.vcf
 
 # Run vcftools to calculate Fst
 vcftools --vcf $VCF \
---weir-fst-pop ~/FST/population_files/FG_alpine.txt \
---weir-fst-pop ~/FST/population_files/FG_foothill.txt \
---out ~/FST/Fst_results/FG_Fst_Results
+--weir-fst-pop ~/Fst/population_files/FG_alpine.txt \
+--weir-fst-pop ~/Fst/population_files/FG_foothill.txt \
+--out ~/Fst/Fst_results/FG_Fst_Results
 ```
 The file takes SV data as input `alpine_all_SV50_norm_rmdup_AN_AC.vcf`.
 
-Two population files are also required to run the script. These population files are basically contains names of all samples are within population in column wise manner and they are also provided in repository (population_files) for reproducibility purposes. They are named after local geographic groups that samples belong and their respective ecotype (alpine, foothill, both)
+Two population files are also required to run the script. These population files are basically contains names of all samples are within population in column wise manner and they are also provided in repository (population_files) for reproducibility purposes. They are named after local geographic groups that samples belong and their respective ecotype (alpine, foothill, both).
+
+The script output file is a `.weir.fst` which contains per site Fst values.
 
 Furthermore for calculating mean Fst for populations this command can be used as well. Direct output files does not contain any mean Fst value rather it only contains per site Fst results. Howerver after run is completed vcftools shows these values direcctly in the command line terminal. These values are saved in `Fst_between_geo_group.tsv` for downstream analysis.
 ```bash
