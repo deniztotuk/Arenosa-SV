@@ -78,5 +78,5 @@ To construct a phylogenetic tree select `Tree` tab and choose appropriate tree b
 
 After tree is constructed to see confidence levels bootstrap algorithm was run by `Analysis > Bootstrap Tree`.
 
-**Note:** While creating tree graph used in thesis random samples from each population were used insted of entire dataset for beter readibilty. 
+**Note:** While creating tree graph used in thesis random samples from each population were used insted of entire dataset for beter readibilty. This did not changed any major branches.
  
