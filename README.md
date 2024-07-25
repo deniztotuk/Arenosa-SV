@@ -121,6 +121,8 @@ Manhattan plots for per site Fst values were plotted via custom `manhattan_plots
 
 This script takes `.weir.fst` files as input and plots them. Top 1% of Fst values has red coloring and each chromosome is highlighted by different colors.
 
+This script saves `fst_plot.png` file in home directory as an output.
+
 
 
 
