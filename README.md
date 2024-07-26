@@ -11,7 +11,7 @@ Sample map which describes both geolocation, ecotype (alpine-foothill) and polid
 
 Script takes `Alp_Samples_for_map.xlsx` as input which is a derivative file created from more general `Alpine samples.xlsx` by copying columns Ecotype, Ploidy, Latitude, Longitude to another `.xslx` .
 
-To specify input file path and since script does not save any output file it should run on Rstudio enviornment for best results.
+To specify input file path and to save output graph run this on Rstudio enviornment for best results.
 
 ## Linkage Disequilibrium Pruning
 
