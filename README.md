@@ -137,10 +137,19 @@ The annoation script takes `Arabidopsis_arenosa_genome.annotation.simple.gtf` an
 
 After genes are annotated based on *Arebidopsis Arenosa* genome `TAIR_Annotation.R` script was used to annotate genes on functional analogues of *A. Thaliana* and *A. Lyrata* sister species. The script contains gene names can be searched in TAIR database.
 
+The script takes input of candidate genes `.tsv` file as input outputs another `.tsv` file contains TAIR Ids for respective genes. 
+
 If you preffer NCBI catalog for searching gene functions `NCBI_Annotation.R` can also be used but there is a certain drawback for this method. While making GO analysis `org.At.tair.db` R package was used which strictly requires TAIR database gene Ids.
 
+The script takes input of candidate genes `.tsv` file as input outputs another `.tsv` file contains NCBI Ids for respective genes. 
 
+### Searching Signs of Parallel Evolution 
 
+To search overllapping per site Fst outliers between populations `Find_Overllaping_Genes.R` script were used. This script compares candidate genes that are annotated by `Find_candidate_genes.R` function and find common variables and saves them into another `.tsv` file. 
+
+This script takes two input `.tsv` files and output another `.tsv` file which has overllaping genes from both files.
+
+**Important Notice:** This script does not look matches in TAIR or NCBI annotation files. So after output file was produced it needs to be annotated again by `TAIR_Annotation.R` or `NCBI_Annotation.R` for functional analysis.
 
 
 
