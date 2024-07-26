@@ -161,6 +161,10 @@ This script (`Fst_vs_Geodist.R`) takes two input files `Fst_between_geo_group.ts
 
 Another scatterplot was produced with `Proportions_vs_Geodist.R`. This script outputs a scatterplot which shows relations with proportion of candidate genes vs geographic distance between them. This script takes two input files  `propotion_overlapping_cand.tsv` and  `distance_between_geo_group.tsv`. The `propotion_overlapping_cand.tsv` created by calculating number of overlapping candidate genes for each group and dividing it by total number of candidate genes annotated per geographic group. The file was created manually.  
 
+### Gene Onthology
+
+For performing GO analysis for finding potential gene enrichments `GO.R` script was used. This script takes TAIR annotated `.tsv` files as input and ouputs GO results in `.tsv` format.
+
 
 
 
