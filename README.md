@@ -127,7 +127,15 @@ This script saves `fst_plot.png` file in home directory as an output.
 
 To isolate top 1% of outliers custom `Outliers_99.R` script was used.
 
-This script takes `.weir.fst` files as inputs. Then saves top 1st percentile of data into a `.tsv` file (Based on Fst scores).
+This script takes `.weir.fst` files as inputs. Then saves top 1st percentile of data (Fst scores) into a `.tsv` file .
+
+After outliers are saved in a `.tsv` file `Find_candidate_genes.R` script can be used to anotate candidate genes. This script takes midpoint of all genes within the gtf file then searches genes within 5kb window in the outlier file then saves resulting genes into another `.tsv` file. 
+
+The annoation script takes `Arabidopsis_arenosa_genome.annotation.simple.gtf` and the tsv file which are outliers saved as input and outputs `.tsv` file which contains candidate genes.
+
+**Note:** Since annotation of *Arebidopsis Arenosa* genome is not fully completed we have used orthologues of *A. Thaliana* and *A. Lyrata* in downstream analysis which are sister species of *Arebidopsis Arenosa*.
+
+
 
 
 
