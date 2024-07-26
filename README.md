@@ -165,6 +165,14 @@ Another scatterplot was produced with `Proportions_vs_Geodist.R`. This script ou
 
 For performing GO analysis for finding potential gene enrichments `GO.R` script was used. This script takes TAIR annotated `.tsv` files as input and ouputs GO results in `.tsv` format.
 
+### References
+
+Ortiz, E.M. 2019. vcf2phylip v2.0: convert a VCF matrix into several matrix formats for phylogenetic analysis. DOI:10.5281/zenodo.2540861
+
+D. H. Huson and D. Bryant, Application of Phylogenetic Networks in Evolutionary Studies, Mol. Biol. Evol., 23(2):254-267, 2006.
+
+Hämälä, T., Moore, C., Cowan, L., Carlile, M., Gopaulchan, D., Brandrud, M.K., Birkeland, S., Loose, M., Kolář, F., Koch, M.A. and Yant, L., 2024. Impact of whole-genome duplications on structural variant evolution in Cochlearia. Nature Communications, 15(1), p.5377. 
+
 
 
 
