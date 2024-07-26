@@ -151,7 +151,7 @@ This script takes two input `.tsv` files and output another `.tsv` file which ha
 
 **Important Notice:** This script does not look matches in TAIR or NCBI annotation files. So after output file was produced it needs to be annotated again by `TAIR_Annotation.R` or `NCBI_Annotation.R` for functional analysis.
 
-We have used `Find_Geo_Distances.R` script was created for calculating real life distances between two in real life coordinates. This script takes input coordinate values manually. The coordinate values where samples were collected for any population can be found on `Alpine samples.xlsx` file.
+We have created `Find_Geo_Distances.R` for calculating real life distances between two in real life coordinates. This script takes input coordinate values manually. The coordinate values where samples were collected for any population can be found on `Alpine samples.xlsx` file.
 
 The script takes latitude and altitude values of two coordinates and calculates distance between them. After coordinates were given script outputs the calculated distance between them in metres. The results were saved mannually to a tsv file named `distance_between_geo_group.tsv`.
 
