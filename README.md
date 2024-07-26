@@ -3,7 +3,7 @@
 
 
 
-**All scripts used in this project can be found in Scripts folder as well as, folder where their respective analysis were performed**
+**All scripts used in this project can be found in Scripts folder as well as, folder named after their respective analysis**
 
 ## Mapping Samples
 
@@ -143,7 +143,7 @@ If you preffer NCBI catalog for searching gene functions `NCBI_Annotation.R` can
 
 The script takes input of candidate genes `.tsv` file as input outputs another `.tsv` file contains NCBI Ids for respective genes. 
 
-### Searching Signs of Parallel Evolution 
+### Searching Signs of Parallel Evolution 
 
 To search overllapping per site Fst outliers between populations `Find_Overllaping_Genes.R` script were used. This script compares candidate genes that are annotated by `Find_candidate_genes.R` function and find common variables and saves them into another `.tsv` file. 
 
@@ -151,14 +151,11 @@ This script takes two input `.tsv` files and output another `.tsv` file which ha
 
 **Important Notice:** This script does not look matches in TAIR or NCBI annotation files. So after output file was produced it needs to be annotated again by `TAIR_Annotation.R` or `NCBI_Annotation.R` for functional analysis.
 
+We have used `Find_Geo_Distances.R` script was created for calculating real life distances between two in real life coordinates. This script takes input coordinate values manually. The coordinate values where samples were collected for any population can be found on `Alpine samples.xlsx` file.
 
+The script takes latitude and altitude values of two coordinates and calculates distance between them. After coordinates were given script outputs the calculated distance between them in metres. The results were saved mannually to a tsv file named `distance_between_geo_group.tsv`.
 
-
-
-
-
-
-
+Since `Fst_between_geo_group.tsv` file were created previously `Fst_vs_Geodist.R` script can be used for creating a graph showing relationship between average Fst between populations and distance between two populations. 
 
 
 
