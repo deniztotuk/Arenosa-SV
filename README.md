@@ -135,6 +135,11 @@ The annoation script takes `Arabidopsis_arenosa_genome.annotation.simple.gtf` an
 
 **Note:** Since annotation of *Arebidopsis Arenosa* genome is not fully completed we have used orthologues of *A. Thaliana* and *A. Lyrata* in downstream analysis which are sister species of *Arebidopsis Arenosa*. These species have far better annotation which is indeed helpful for searching gene functions.
 
+After genes are annotated based on *Arebidopsis Arenosa* genome `TAIR_Annotation.R` script was used to annotate genes on functional analogues of *A. Thaliana* and *A. Lyrata* sister species. The script contains gene names can be searched in TAIR database.
+
+If you preffer NCBI catalog for searching gene functions `NCBI_Annotation.R` can also be used but there is a certain drawback for this method. While making GO analysis `org.At.tair.db` R package was used which strictly requires TAIR database gene Ids.
+
+
 
 
 
