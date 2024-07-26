@@ -117,7 +117,7 @@ Weir and Cockerham weighted Fst estimate: 0.0812
 After filtering, kept 137322 out of a possible 137322 Sites
 Run Time = 8.00 seconds
 ```
-Manhattan plots for per site Fst values were plotted via custom `manhattan_plots.R` script. 
+Manhattan plots for per site Fst values were plotted via custom `Manhattan_plots.R` script. 
 
 This script takes `.weir.fst` files as input and plots them. Top 1% of Fst values has red coloring and each chromosome is highlighted by different colors.
 
