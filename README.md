@@ -5,7 +5,7 @@
 
 **All scripts used in this project can be found in Scripts folder as well as, folder where their respective analysis were performed**
 
-#### Mapping Samples
+## Mapping Samples
 
 Sample map which describes both geolocation, ecotype (alpine-foothill) and polidy status for all collected samples are created by using custom R script `Create_Map.R`
 
@@ -13,7 +13,7 @@ Script takes `Alp_Samples_for_map.xlsx` as input which is a derivative file crea
 
 To specify input file path and since script does not save any output file it should run on Rstudio enviornment for best results.
 
-### Linkage Disequilibrium Pruning
+## Linkage Disequilibrium Pruning
 
 Files are LD pruned via Hämälä's (2024) PCA script which is directly taken from https://github.com/thamala/polySV/blob/main/prune_ld.c
 
@@ -41,7 +41,7 @@ The script was run on HPC enviornment. Running script on any other enviornment r
 
 Correct usage of flags (`-vcf`, `-mis`, `-maf`, `-r2` ...) and their effects on output file commented in the script file.
 
-### Principle Component Analysis (PCA)
+## Principle Component Analysis (PCA)
 
 PCA analysis were performed on LD pruned vcf file `alp_arenosa_pruned.vcf` with another script taken from Hämälä (2024) https://github.com/thamala/polySV/blob/main/est_cov_pca.r.
 
@@ -80,7 +80,7 @@ After tree is constructed to see confidence levels bootstrap algorithm was run b
 
 **Note:** While creating tree graph used in thesis random samples from each population were used insted of entire dataset for beter readibilty. This reduced number of subranches in individual level and simplified tree without changing overall story.
 
-### Fst Analysis
+## Fst Analysis
 
 Fst scans were firstly performed samples within individual geograpical groups between alpine and foothill populations with using SV data (**not** pruned or unpruned 
 SNV data).
@@ -123,7 +123,7 @@ This script takes `.weir.fst` files as input and plots them. Top 1% of Fst value
 
 This script saves `fst_plot.png` file in home directory as an output.
 
-### Genome Scans
+##  Genome Scans
 
 To isolate top 1% of outliers custom `Outliers_99.R` script was used.
 
@@ -150,6 +150,8 @@ To search overllapping per site Fst outliers between populations `Find_Overllapi
 This script takes two input `.tsv` files and output another `.tsv` file which has overllaping genes from both files.
 
 **Important Notice:** This script does not look matches in TAIR or NCBI annotation files. So after output file was produced it needs to be annotated again by `TAIR_Annotation.R` or `NCBI_Annotation.R` for functional analysis.
+
+
 
 
 
