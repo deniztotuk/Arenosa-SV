@@ -157,9 +157,9 @@ The script takes latitude and altitude values of two coordinates and calculates 
 
 Since `Fst_between_geo_group.tsv` file were created previously `Fst_vs_Geodist.R` script can be used for creating a graph showing relationship between average Fst between populations and distance between two populations. 
 
+This script (`Fst_vs_Geodist.R`) takes two input files `Fst_between_geo_group.tsv` and `distance_between_geo_group.tsv` then produces a scatterplot showing relationship between two variables.
 
-
-
+Another scatterplot was produced with `Proportions_vs_Geodist.R`. This script outputs a scatterplot which shows relations with proportion of candidate genes vs geographic distance between them. This script takes two input files  `propotion_overlapping_cand.tsv` and  `distance_between_geo_group.tsv`. The `propotion_overlapping_cand.tsv` created by calculating number of overlapping candidate genes for each group and dividing it by total number of candidate genes annotated per geographic group. The file was created manually.  
 
 
 
