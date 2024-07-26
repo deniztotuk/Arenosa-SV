@@ -163,7 +163,7 @@ Another scatterplot was produced with `Proportions_vs_Geodist.R`. This script ou
 
 ### Gene Onthology
 
-For performing GO analysis for finding potential gene enrichments `GO.R` script was used. This script takes TAIR annotated `.tsv` files as input and ouputs GO results in `.tsv` format.
+For performing GO analysis to find potential gene enrichments `GO.R` script was used. This script takes TAIR annotated `.tsv` files as input and ouputs GO results in `.tsv` format.
 
 ### References
 
