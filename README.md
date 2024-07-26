@@ -3,7 +3,7 @@
 
 
 
-
+**All scripts used in this project can be found in Scriptd folder as well as, folder where their respective analysis were performed**
 
 #### Mapping Samples
 
