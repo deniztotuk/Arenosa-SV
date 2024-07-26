@@ -1,0 +1,21 @@
+GO.ID	Term	Annotated	Significant	Expected	elimFisher
+GO:0008150	biological_process	43	43	43	0.023
+GO:0009987	cellular process	25	25	25	0.432
+GO:0050896	response to stimulus	19	19	19	0.568
+GO:0008152	metabolic process	16	16	16	0.636
+GO:0071704	organic substance metabolic process	15	15	15	0.659
+GO:0044238	primary metabolic process	15	15	15	0.659
+GO:0044237	cellular metabolic process	14	14	14	0.682
+GO:0065007	biological regulation	13	13	13	0.705
+GO:0006807	nitrogen compound metabolic process	12	12	12	0.727
+GO:0043170	macromolecule metabolic process	12	12	12	0.727
+GO:0050789	regulation of biological process	12	12	12	0.727
+GO:0044249	cellular biosynthetic process	11	11	11	0.750
+GO:1901576	organic substance biosynthetic process	11	11	11	0.750
+GO:0009058	biosynthetic process	11	11	11	0.750
+GO:0034641	cellular nitrogen compound metabolic pro...	9	9	9	0.795
+GO:0042221	response to chemical	9	9	9	0.795
+GO:0006725	cellular aromatic compound metabolic pro...	9	9	9	0.795
+GO:0090304	nucleic acid metabolic process	9	9	9	0.795
+GO:0016070	RNA metabolic process	9	9	9	0.795
+GO:0009628	response to abiotic stimulus	9	9	9	0.795
