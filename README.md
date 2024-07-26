@@ -145,9 +145,9 @@ The script takes input of candidate genes `.tsv` file as input outputs another `
 
 ### Searching Signs of Parallel Evolution 
 
-To search overllapping per site Fst outliers between populations `Find_Overllaping_Genes.R` script were used. This script compares candidate genes that are annotated by `Find_candidate_genes.R` function and find common variables and saves them into another `.tsv` file. 
+To search overlapping per site Fst outliers between populations `Find_Overlaping_Genes.R` script were used. This script compares candidate genes that are annotated by `Find_candidate_genes.R` function and find common variables and saves them into another `.tsv` file. 
 
-This script takes two input `.tsv` files and output another `.tsv` file which has overllaping genes from both files.
+This script takes two input `.tsv` files and output another `.tsv` file which has overlapping genes from both files.
 
 **Important Notice:** This script does not look matches in TAIR or NCBI annotation files. So after output file was produced it needs to be annotated again by `TAIR_Annotation.R` or `NCBI_Annotation.R` for functional analysis.
 
