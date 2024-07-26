@@ -133,7 +133,9 @@ After outliers are saved in a `.tsv` file `Find_candidate_genes.R` script can be
 
 The annoation script takes `Arabidopsis_arenosa_genome.annotation.simple.gtf` and the tsv file which are outliers saved as input and outputs `.tsv` file which contains candidate genes.
 
-**Note:** Since annotation of *Arebidopsis Arenosa* genome is not fully completed we have used orthologues of *A. Thaliana* and *A. Lyrata* in downstream analysis which are sister species of *Arebidopsis Arenosa*.
+**Note:** Since annotation of *Arebidopsis Arenosa* genome is not fully completed we have used orthologues of *A. Thaliana* and *A. Lyrata* in downstream analysis which are sister species of *Arebidopsis Arenosa*. These species have far better annotation which is indeed helpful for searching gene functions.
+
+
 
 
 
