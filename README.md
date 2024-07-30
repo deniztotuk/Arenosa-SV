@@ -7,11 +7,11 @@
 
 ## Mapping Samples
 
-Sample map which describes both geolocation, ecotype (alpine-foothill) and polidy status for all collected samples are created by using custom R script `Create_Map.R`
+Sample map that describes both geolocation, ecotype (alpine-foothill), and ploidy status for all collected samples are created by using the custom R script `Create_Map.R`
 
-Script takes `Alp_Samples_for_map.xlsx` as input which is a derivative file created from more general `Alpine samples.xlsx` by copying columns Ecotype, Ploidy, Latitude, Longitude to another `.xslx` .
+The script takes `Alp_Samples_for_map.xlsx` as input. This is a derivative file created from the more general `Alpine samples.xlsx` by copying the columns Ecotype, Ploidy, Latitude, and Longitude to another `.xslx.`
 
-To specify input file path and to save output graph run this on Rstudio enviornment for best results.
+To specify the input file path and save the output graph, run this on the Rstudio environment for the best results. 
 
 ## Linkage Disequilibrium Pruning
 
