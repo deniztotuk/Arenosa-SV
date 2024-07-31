@@ -1,9 +1,27 @@
 ### Arenosa-SV
-#### Introduction
+# Unveiling the Role of Structural Variants in the Adaptive Evolution of Arabidopsis arenosa to Alpine Environments
 
+Welcome to the GitHub repository for our study on the adaptive evolution of Arabidopsis arenosa in alpine environments. This research focuses on understanding how structural variants (SVs) contribute to the adaptation of A. arenosa populations to challenging alpine conditions.
 
+### Project Overview
+*Arabidopsis arenosa* inhabits diverse environments across Central Europe from lowland foothills to high-altitude alpine regions. By examining structural variants, we aim to uncover the genetic basis of adaptive traits that enable survival in alpine environments.
+
+### Key Objectives
+1- Identify structural variants involved in the adaptation to alpine environments.
+2- Understand the role of gene reuse and functional parallelism in different populations.
+3- Examine the relationship between geographic distance, genetic divergence, and adaptive traits.
+
+### Major Findings
+- Significant SVs contributing to alpine adaptation were identified, highlighting genes related to stress response and metabolic processes.
+- Evidence of gene reuse across geographically separated populations, suggesting common adaptive strategies.
+
+## Repository Contents
+This repository contains data, scripts, and supplementary materials used in our analyses. We hope that our findings will contribute to the broader understanding of plant adaptation and the role of structural variants in evolutionary processes.
 
 **All scripts used in this project can be found in Scripts folder as well as, folder named after their respective analysis**
+
+Contact
+For more information, please feel free to contact us at mbxdt3@nottingham.ac.uk
 
 ## Mapping Samples
 
